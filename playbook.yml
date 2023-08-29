@@ -2,4 +2,4 @@
 - name: Get credentials from Vault
   hosts: all
   roles:
-    - my_role
+    - hc_vault_machine_credential
