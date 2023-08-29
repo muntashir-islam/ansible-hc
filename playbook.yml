@@ -1,7 +1,5 @@
 ---
-- name: Hello World Sample
+- name: Get credentials from Vault
   hosts: all
-  tasks:
-    - name: Hello Message
-      debug:
-        msg: "Hello World!"
+  roles:
+    - my_role
