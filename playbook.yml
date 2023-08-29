@@ -1,0 +1,4 @@
+---
+- name: Get credentials from Vault
+  include_role: 
+    name: hc_vault_machine_credential

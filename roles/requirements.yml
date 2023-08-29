@@ -1,0 +1,4 @@
+---
+- src: https://github.com/muntashir-islam/hc_vault_machine_credential.git
+  name: hc_vault_machine_credential
+  version: master
